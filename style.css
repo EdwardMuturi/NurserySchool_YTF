@@ -4,6 +4,8 @@ body {
   color: #222324;
   line-height: 1.6;
   background-color: #fff;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 input{
@@ -40,3 +42,46 @@ input:invalid{
 input:valid{
 	border: 2px  solid purple;
 	}
+
+nav ul{
+	float: right;
+	list-style: none;
+	margin-bottom: 10px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 7px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #800000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+}
+
+footer .copyright{
+	margin-left: 40%;
+}
